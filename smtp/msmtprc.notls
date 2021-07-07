@@ -1,0 +1,12 @@
+account default 
+host smtp.163.com   
+port 25
+# 按照實際情況填寫真實的163郵箱
+from xxx@163.com 
+auth login
+tls off
+# 郵箱使用者名稱，是xxx而不是xxx@163.com  
+user xxx
+# 需要注意的是這裡的密碼有可能是授權碼，比如163郵箱的話這裡就必須填授權碼，如下圖  
+password xxx 
+logfile /var/log/mmlog
